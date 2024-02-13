@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Jang Ebe',
             'email' => 'jangebe91@gmail.com',
             'email_verified_at' => now(),
-            'password' => '$2a$12$oqFeWIHW8/9OEWNmjTRqhuRBQWARmj/2JrjvqaPKis.K8Ez0IPbmm',
+            'password' => '$2y$10$5A00n.52HuPMCSIciQ0uvegoaSTxgERd43FdoT1/yYA3Bk9in3XL2',
         ]);
     }
 }
