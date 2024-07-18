@@ -13,7 +13,7 @@ class WebsocketAppController extends Controller
      */
     public function index()
     {
-        $websocketApps = WebsocketApp::all();
+        $websocketApps = WebsocketApp::orderBy('name', 'asc')->get();
         return view('websocket-apps.index', compact('websocketApps'));
     }
 
